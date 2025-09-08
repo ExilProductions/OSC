@@ -90,13 +90,8 @@ OSCAPI.UnregisterGlobalHandler(myGlobalHandler);
 - **Receive Port**: `9001`
 - **Auto-start Receiver**: `true`
 
-## Error Handling
-
-All OSCAPI methods include built-in error handling and will log errors to the MelonLoader console. Your mod won't crash if the OSC plugin is unavailable or if network errors occur.
-
 ## Common Use Cases
 
-- **VRChat Integration**: Send avatar parameters and receive input from VRChat's OSC system
 - **External Control**: Control your mod from mobile apps like TouchOSC
 - **Audio Software**: Sync with DAWs and audio applications
 - **Live Performance**: Real-time parameter control for live streaming or performance
